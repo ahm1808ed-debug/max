@@ -99,7 +99,7 @@ Say hi or we assume you’re a potato 🥔
 
 ━━━━━━━━━━━━━━
 
-1A - Strictly OVER 14 and BOYS only
+1A - Strictly OVER 14 and girl only
 
 1B - IF U dont post minimum 25 times in 7 days
 you will be kicked automatically by the bot.
@@ -111,7 +111,7 @@ you will be kicked automatically by the bot.
 • No illegal content
 • No spam
 • No fake media
-• No girl content
+• No boy content
 
 ━━━━━━━━━━━━━━
 
@@ -125,7 +125,7 @@ Mods can:
 """
 
     welcome_text = """
-🎭 Welcome to BMG 2026!
+🎭 Welcome to BMG乃山 | Galaxus 2026!
 
 This is an anonymous lobby.
 
