@@ -95,7 +95,7 @@ You'll be notified once they approve or reject your submission."""
 
 PLEASE ENSURE ALL SUBMISSIONS ARE 14+
 
-Say hi or we assume you’re a potato 🥔
+Say hi or we assumeE you’re a potato 🥔
 
 ━━━━━━━━━━━━━━
 
