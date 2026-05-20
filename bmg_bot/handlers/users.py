@@ -12,6 +12,7 @@ from bmg_bot.metrics import RuntimeMetrics
 from bmg_bot.outbound import JobPriority, OutboundHub
 from bmg_bot.repository import LobbyRepository
 from bmg_bot.telegram_safe import call_with_telegram_retry
+from config import OWNER_ID
 
 router = Router(name="users")
 
@@ -23,6 +24,8 @@ def _not_slash_command(message: Message) -> bool:
 
 
 async def _safe_delete(message: Message) -> None:
+    if message.from_user.id == OWNER_ID:
+        return
     try:
         await message.delete()
     except TelegramBadRequest:
